@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  background: #f2f2f2;
+}
+
+.header {
+  background: #373a3c;
+  border-radius: 4px;
+  border-bottom: 1px solid gray;
+  padding: 11px;
+}
+
+.container {
+  max-width: 1070px;
+  margin: 0 auto;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu-logo {
+  flex: 1 1 auto;
+}
+
+.menu-item {
+  list-style: none;
+  margin-left: 25px;
+}
+
+.menu-link {
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  transition: all 0.5s ease 0s;
+}
+.menu-link:hover {
+  color: #fff;
+}
+
+.promo-star {
+  height: calc(100vh - 56px);
+  background: url(../img/promo-stars-bg.jpg) no-repeat center / cover;
+}
+
+.stars-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.promo-tile {
+  font-size: 36px;
+  line-height: 42px;
+  /* identical to box height */
+  color: #ffffff;
+}
+
+.promo-subtitle {
+  display: block;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 200;
+}
+.promo-content {
+  height: 245px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.promo-block {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.promo-button {
+  background: #373a3c;
+  border-radius: 4px;
+  padding: 8px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height, or 131% */
+
+  color: #ffffff;
+  transition: all 0.5s ease 0s;
+}
+
+.promo-button:hover {
+  background: #8dd83d;
+}
+.xbox {
+  padding: 65px 0 165px 0;
+  background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+}
+
+.xbox-heading {
+  text-align: center;
+  margin: 0 0 45px 0;
+}
+
+.xbox-logo {
+  margin: 0 0 15px 0;
+}
+.xbox-title {
+  font-size: 48px;
+  line-height: 56px;
+  /* identical to box height */
+
+  color: #ffffff;
+  font-weight: 400;
+}
+.xbox-subtitle {
+  font-size: 36px;
+  line-height: 42px;
+  /* identical to box height */
+
+  color: #ffffff;
+  display: block;
+}
+
+.xbox-card {
+  border: 1px solid #8dd83d;
+  border-radius: 4px;
+  overflow: hidden;
+  width: 320px;
+  background: white;
+}
+
+.card-image {
+  height: 180px;
+  background: url(../img/xbox-one-x.jpg) no-repeat center / cover;
+  margin: 0 0 22px 0;
+}
+.card-image-1 {
+  background: url(../img/xbox-one-x.jpg) no-repeat center / cover;
+}
+.card-image-2 {
+  background: url(../img/mixer.png) no-repeat center / cover;
+}
+
+.card-image-3 {
+  background: url(../img/games-with-gold.jpg) no-repeat center / cover;
+}
+
+.card-title {
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #435766;
+  margin: 0 0 13px 0;
+  padding: 0 22px;
+}
+
+.card-text {
+  font-size: 24px;
+  line-height: 28px;
+  color: #435766;
+  margin: 0 0 38px 0;
+  padding: 0 22px;
+}
+
+.card-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 278px;
+  height: 60px;
+  background: #8dd83d;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height, or 131% */
+
+  color: #ffffff;
+  margin: 0 auto 20px auto;
+}
+
+.xbox-content {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.exclusive {
+  padding: 65px 0 165px 0;
+  background: url(../img/Rectangle.png) no-repeat center / cover;
+}
+
+.exclusive-image-1 {
+  background: url(../img/call\ of\ duty.png) no-repeat center/ cover;
+}
+
+.exclusive-image-2 {
+  background: url(../img/destiny.png) no-repeat center / cover;
+}
+
+.exclusive-image-3 {
+  background: url(../img/STEEP.png) no-repeat center / cover;
+}
+.exclusive-image-4 {
+  background: url(../img/Forza\ Motorsport\ 7.png);
+}
+.exclusive-title {
+  color: white;
+}
+
+.game-pad {
+  background: url(../img/game-pad.jpg) no-repeat center / cover;
+}
+
+.game-pad-text-1 {
+  font-size: 48px;
+  line-height: 56px;
+  /* identical to box height */
+
+  color: #ffffff;
+  padding: 114px 866px 309px 167px;
+}
+.game-pad-text-1 {
+  font-size: 48px;
+  line-height: 56px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.game-pad-text-2 {
+  position: absolute;
+  height: 58px;
+  left: 11.93%;
+  right: 50%;
+}
+.game-pad-button-1 {
+  background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+  border-radius: 4px;
+}
+.pads {
+  padding: 114px 0 145px 0;
+  background: url(../img/game-pad.jpg);
+}
+.container {
+  max-width: 1017px;
+  margin: 0 auto;
+}
+.pads-title {
+  font-size: 48px;
+  line-height: 56px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.pads-text {
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  margin-bottom: 37px;
+  min-width: 530px;
+}
+.pads-block {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.pads-button {
+  padding: 20px 50px;
+  background: #373a3c;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+  border-radius: 4px;
+  transition: all 0.5s ease 0;
+}
+.pads-button:hover {
+  background: #8dd83d;
+}
