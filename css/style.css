@@ -218,6 +218,7 @@
 }
 .exclusive-title {
   color: white;
+  text-align: center;
 }
 
 .game-pad {
@@ -251,7 +252,7 @@
 }
 .pads {
   padding: 114px 0 145px 0;
-  background: url(../img/game-pad.jpg);
+  background: url(../img/game-pad.jpg) no-repeat center / cover;
 }
 
 .pads-title {
